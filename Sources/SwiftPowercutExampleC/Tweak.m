@@ -10,7 +10,6 @@ __attribute__((constructor)) static void init() {
   orion_init();
 
   // register action - put all registrations here
-  // make sure the id is in this form (x.x.x.x.x) - unpredictable behaviour happens otherwise
   [[PowercutsManager sharedInstance]
       registerActionWithIdentifier:
           @"com.barfie.automaton.action.complexAction"
