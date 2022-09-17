@@ -1,0 +1,9 @@
+Package: barfie
+Name: SwiftPowercutExample
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: ComplexAction powercuts example in swift!
+Maintainer: Hamdan Mahmood
+Author: Hamdan Mahmood
+Section: Tweaks
+Depends: ${ORION}, firmware (>= 12.2)
