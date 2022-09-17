@@ -11,5 +11,6 @@ $(TWEAK_NAME)_FILES = $(shell find Sources/SwiftPowercutExample -name '*.swift')
 $(TWEAK_NAME)_SWIFTFLAGS = -ISources/SwiftPowercutExampleC/include
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc -ISources/SwiftPowercutExampleC/include
 $(TWEAK_NAME)_LIBRARIES = powercuts
+$(TWEAK_NAME)_PRIVATE_FRAMEWORKS = SpringBoard
 
 include $(THEOS_MAKE_PATH)/tweak.mk
